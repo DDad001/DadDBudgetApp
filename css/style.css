@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+body
+{
+    font-family: 'Open Sans', sans-serif;
+    background-image: url("../images/luke-chesser-3rWagdKBF7U-unsplash.jpg");
+    background-size: cover;
+    color: white;
+}
+
+input
+{
+    border-radius: 25px;
+    padding: 20px; 
+    width: 200px;
+    height: 15px;    
+}
+.ulStyle
+{
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+}
+
+.textAlign
+{
+    text-align: left;
+}
+
+.close {
+    cursor: pointer;
+    top: 50%;
+    right: 0%;
+    padding: 12px 16px;
+  }
+  
+  .close:hover {background: #bbb;}
+
+  button:hover
+  {
+    background:rgb(0, 217, 255) !important;
+    color: black !important;
+    border-radius: 5px !important;
+    box-shadow: 0 0 5px white,
+                0 0 25px white,
+                0 0 50px white,
+                0 0 100px white !important;
+  }
+
+  button{
+    padding: 8px 10px;
+    font-size: 15px !important;
+    text-decoration: none;
+    border: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 20px;
+    letter-spacing: 4px;
+    background-color:rgba(235, 237, 237, 0.598) !important;
+    color:white !important;
+  }
+
+
+  .btn-reset:hover
+  {
+    background:rgb(0, 217, 255) !important;
+    color: black !important;
+    border-radius: 5px !important;
+    box-shadow: 0 0 5px white,
+                0 0 25px white,
+                0 0 50px white,
+                0 0 100px white !important;
+  }
+
+  .btn-reset{
+    padding: 8px 10px;
+    font-size: 13px !important;
+    text-decoration: none;
+    border: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 20px;
+    letter-spacing: 4px;
+    background-color:rgba(235, 237, 237, 0.598) !important;
+    color:white !important;
+  }
